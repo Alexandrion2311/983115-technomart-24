@@ -13,19 +13,19 @@ close.addEventListener("click", function(evt) {
     popup.classList.remove("modal-show");
 });
 
-var linkMap = document.querySelector(".open-map-btn");
-var popupMap = document.querySelector(".map-big");
-var closeMap = document.querySelector(".map-modal-close");
+// var linkMap = document.querySelector(".open-map-btn");
+// var popupMap = document.querySelector(".map-big");
+// var closeMap = document.querySelector(".map-modal-close");
 
-linkMap.addEventListener("click", function(evt) {
-    evt.preventDefault();
-    popupMap.classList.add("modal-show");
-});
+// linkMap.addEventListener("click", function(evt) {
+//     evt.preventDefault();
+//     popupMap.classList.add("modal-show");
+// });
 
-closeMap.addEventListener("click", function(evt) {
-    evt.preventDefault();
-    popupMap.classList.remove("modal-show");
-});
+// closeMap.addEventListener("click", function(evt) {
+//     evt.preventDefault();
+//     popupMap.classList.remove("modal-show");
+// });
 
 var linkBasket = document.querySelector(".catalog-item-buy");
 var popupBasket = document.querySelector(".basket-added");
